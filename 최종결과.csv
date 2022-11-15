@@ -1,4 +1,8 @@
 Method,Model,Train RMSE,Train R2,Train MAE,Train MAPE,Test RMSE,Test R2,Test MAE,Test MAPE
 Only Table,XGBoost,0.647,0.103,0.683,0.073,0.642,0.131,0.465,0.073
+Only Image,Resnet18,0.703,-0.067,0.74,0.091,0.722,-0.064,0.754,0.095
 Only Image,Resnet18 + Cbam,0.686,-0.016,0.734,0.09,0.706,-0.015,0.746,0.094
+Only Image,Resnet50,0.686,-0.018,0.734,0.09,0.706,-0.017,0.747,0.094
+Only Image,Resnet50 + Cbam,0.699,-0.057,0.749,0.095,0.72,-0.058,0.761,0.098
+Only Image,vit,0.69,-0.03,0.74,0.092,0.71,-0.027,0.751,0.095
 Both Table and Image,Resnet18 + Cbam and XGBoost,0.38,0.688,0.537,0.048,0.551,0.38,0.426,0.07
